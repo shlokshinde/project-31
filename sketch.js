@@ -69,5 +69,7 @@ function draw() {
   }
 
   //display the paricles 
-
+  for (var j = 0;j < particles.length; j++) {
+     particles[j].display();
+  }
 }
